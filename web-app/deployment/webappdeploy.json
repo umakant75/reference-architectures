@@ -248,11 +248,6 @@
       "name": "[parameters('FunctionVoteCounterPlan_name')]",
       "location": "[variables('location')]",
       "sku": {
-        #"name": "Y1",
-        #"tier": "Dynamic",
-        #"size": "Y1",
-        #"family": "Y",
-        #"capacity": 0
         "name": "F1",
         "tier": "Free",
         "size": "F1",
@@ -279,11 +274,6 @@
         "size": "F1",
         "family": "F",
         "capacity": 1
-      #"name": "S1",
-      #"tier": "Standard",
-      #"size": "S1",
-      #"family": "S",
-      #"capacity": 1
       },
       "kind": "app",
       "properties": {
@@ -300,11 +290,6 @@
       "name": "[parameters('VotingWebPlan_name')]",
       "location": "[variables('location')]",
       "sku": {
-        #"name": "S1",
-        #"tier": "Standard",
-        #"size": "S1",
-        #"family": "S",
-        #"capacity": 1
         "name": "F1",
         "tier": "Free",
         "size": "F1",
