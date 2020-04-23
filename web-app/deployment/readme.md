@@ -11,14 +11,16 @@ mkdir deployweb
 cd deployweb
 ```
 ```
-export DEPLOYMENT=https://raw.githubusercontent.com/mspnp/reference-architectures/master/web-app/deployment/
-export RGNAME=resourceGroupName
-export RGLOCATION=yourLocation
-export SQLSERVERNAME=yourSqlServerName
-export SQLSERVERDB=yousqlSqlServerDb
-export SQLADMINUSER=yoursqlAdminUser
-export DNSNAME=uniquednsnameOfWebApp
-export STORAGEACCNAME=yourstorageaccountName
+export DEPLOYMENT=https://github.com/umakant75/reference-architectures/edit/master/web-app/deployment/
+export RGNAME=uk202024
+export RGLOCATION=centralus
+export CONTAINERNAME=rsrcontainer 
+export SQLSERVERNAME=UKSQLSRV321
+export SQLSERVERDB=UKSQLDB321
+export SQLADMINUSER=Adminsql
+export SQLADMINPASSWORD=Admin@1234
+export DNSNAME=az-umakant24.net
+export STORAGEACCNAME=azumakant24
 ```
 
 #### Step 2 Check if the dns name of gateway is available and is valid
